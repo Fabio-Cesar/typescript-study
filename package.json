@@ -1,0 +1,15 @@
+{
+  "name": "exercicio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
