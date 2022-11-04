@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "start": "npm run build && node ./dist"
+    "build": "npx tsc -w",
+    "start": "npx tsc && node ./dist"
   },
   "author": "",
   "license": "ISC",
