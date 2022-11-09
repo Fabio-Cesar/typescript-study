@@ -1,15 +1,10 @@
-import StringValidator from "./stringValidator.js";
+import RegexValidator from "./regexValidator.js";
 
-class EmailValidator extends StringValidator
-{
-    constructor (data: any)
+class EmailValidator extends RegexValidator
+{    
+    get regex()
     {
-        super(data);
-        const regex = new RegExp(/^(\w{1,}@\w{1,}\.(\w{3})(\.\w{2}){0,1})$/, "im");
-        if (!regex.test(data))
-        {
-            throw new Error('O formato está errado');
-        }
+        return new RegExp(/^(\w{1,}@\w{1,}\.(\w{3})(\.\w{2}){0,1})$/, "gim");
     }
 }
 
