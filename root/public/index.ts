@@ -1,5 +1,5 @@
-import { CustomForm, EmailInput, NameInput, PasswordInput} from "./components/index.js";
-import { APIResponse, LoginData, UserData } from "./interfaces/index.js";
+import { CustomForm, EmailInput, NameInput, PasswordInput} from "./components";
+import { APIResponse, LoginData, UserData } from "./interfaces";
 
 customElements.define("custom-form", CustomForm, {extends:'form'});
 customElements.define("email-input", EmailInput);

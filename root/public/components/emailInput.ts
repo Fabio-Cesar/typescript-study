@@ -1,4 +1,4 @@
-import { EmailValidator } from "../validators/index.js";
+import { EmailValidator } from "../validators";
 
 class EmailInput extends HTMLElement {
     static formAssociated = true;

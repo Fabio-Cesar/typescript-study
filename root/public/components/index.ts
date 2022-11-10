@@ -1,6 +1,6 @@
-import EmailInput from "./emailInput.js";
-import NameInput from "./nameInput.js";
-import PasswordInput from "./passwordInput.js";
-import CustomForm from "./customForm.js";
+import EmailInput from "./emailInput";
+import NameInput from "./nameInput";
+import PasswordInput from "./passwordInput";
+import CustomForm from "./customForm";
 
 export { CustomForm, EmailInput, NameInput, PasswordInput };

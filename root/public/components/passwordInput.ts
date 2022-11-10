@@ -1,4 +1,4 @@
-import { PasswordValidator } from "../validators/index.js";
+import { PasswordValidator } from "../validators";
 
 class PasswordInput extends HTMLElement {
     static formAssociated = true;

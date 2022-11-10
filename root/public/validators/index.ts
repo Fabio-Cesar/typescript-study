@@ -1,5 +1,5 @@
-import EmailValidator from "./emailValidator.js";
-import NameValidator from "./nameValidator.js";
-import PasswordValidator from "./passwordValidator.js";
+import EmailValidator from "./emailValidator";
+import NameValidator from "./nameValidator";
+import PasswordValidator from "./passwordValidator";
 
 export { EmailValidator, NameValidator, PasswordValidator };

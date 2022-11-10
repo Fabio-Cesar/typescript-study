@@ -1,4 +1,4 @@
-import RegexValidator from "./regexValidator.js";
+import RegexValidator from "./regexValidator";
 
 class PasswordValidator extends RegexValidator
 {

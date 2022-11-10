@@ -1,4 +1,4 @@
-import { NameValidator } from "../validators/index.js";
+import { NameValidator } from "../validators";
 
 class NameInput extends HTMLElement {
     static formAssociated = true;

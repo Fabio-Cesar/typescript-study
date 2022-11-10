@@ -1,4 +1,4 @@
-import Validator from "./abstractValidator.js";
+import Validator from "./abstractValidator";
 
 class StringValidator extends Validator
 {

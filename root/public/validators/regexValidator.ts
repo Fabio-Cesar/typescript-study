@@ -1,4 +1,4 @@
-import StringValidator from "./stringValidator.js";
+import StringValidator from "./stringValidator";
 
 class RegexValidator extends StringValidator
 {

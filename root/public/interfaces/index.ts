@@ -1,6 +1,6 @@
-import APIResponse from "./APIResponse.js";
-import IAttributes from "./IAttributes.js";
-import LoginData from "./LoginData.js";
-import UserData from "./UserData.js";
+import APIResponse from "./APIResponse";
+import IAttributes from "./IAttributes";
+import LoginData from "./LoginData";
+import UserData from "./UserData";
 
 export { APIResponse, IAttributes, LoginData, UserData };

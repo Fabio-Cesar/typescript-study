@@ -1,4 +1,4 @@
-import { IAttributes } from "../interfaces/index.js";
+import { IAttributes } from "../interfaces";
 
 class CustomForm extends HTMLFormElement
 {
